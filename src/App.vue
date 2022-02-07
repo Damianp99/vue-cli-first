@@ -1,9 +1,12 @@
 <template>
-  <div id="app"></div>
+  <div id="app"><Title /></div>
 </template>
 
 <script>
-export default {};
+import Title from "@/components/Title.vue";
+export default {
+  Title,
+};
 </script>
 
 <style scoped>
