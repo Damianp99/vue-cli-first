@@ -5,7 +5,8 @@
 <script>
 import Title from "@/components/Title.vue";
 export default {
-  Title,
+  name: "App",
+  components: { Title },
 };
 </script>
 
